@@ -13,7 +13,40 @@ public class Tester
         switch (choice)
         {
             case 1:
-                start
+                start = Station.TAIPEI_STATION;
+                break;
+            case 2 :
+                start = Station.TAICHUNG_STATION;
+                break;
+            case 3 :
+                start = Station.KAOHSIUNG_STATION;
+
         }
+        System.out.println("Your destination station?(1: Taipei,2:Taichung,3:Kaohsiung)");
+        choice = Integer.parseInt(scanner.next());
+        Station destination = null;
+        switch (choice)
+        {
+            case 1:
+                destination = Station.TAIPEI_STATION;
+                break;
+            case 2:
+                destination = Station.TAICHUNG_STATION;
+                break;
+            case 3:
+                destination = Station.KAOHSIUNG_STATION;
+                break;
+        }
+
+        System.out.println("Which kind of ticket?(1:Normal,2:Student,3:Elder)");
+        choice = Integer.parseInt(scanner.next());
+        Ticket ticket = null;
+        switch (choice)
+        {
+            case 1:
+                ticket
+        }
+
+
     }
 }
