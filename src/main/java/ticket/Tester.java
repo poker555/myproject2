@@ -44,7 +44,10 @@ public class Tester
         switch (choice)
         {
             case 1:
-                ticket
+                ticket = new Ticket(start,destination);
+                break;
+            case 2:
+                ticket = new StudentTicket(start,destination);
         }
 
 

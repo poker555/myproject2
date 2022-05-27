@@ -1,4 +1,6 @@
 package score;
 
-public class Printable {
+public class Printable
+{
+
 }
