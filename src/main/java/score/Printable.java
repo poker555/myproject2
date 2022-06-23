@@ -1,6 +1,6 @@
 package score;
 
-public class Printable
+public interface Printable
 {
-
+    public void print();
 }
