@@ -1,10 +1,10 @@
 package score;
 
-public class Student
+public class Student implements Printable
 {
-    String name;
-    int english;
-    int math;
+    protected String name;
+    protected int english;
+    protected int math;
     public Student(String name)
     {
         this.name = name;
@@ -19,6 +19,7 @@ public class Student
     {
         this("John Doe",-1,1);
     }
+    @Override
     public void print()
     {
         System.out.print(name+"\t"+english+"\t"+math+"\t"+getAverage());
